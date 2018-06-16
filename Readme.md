@@ -10,3 +10,8 @@ A set of shell files that customize the terminal environment with aliases,functi
 * `prompt.sh`: customizes the prompt
 * `shopt.sh`: sets shell-options
 * `startup_screen.sh`: displays a startup screen
+
+## Usage
+
+* source the index.sh in your ~/.bashrc
+* look into the files to see what commands you can use
