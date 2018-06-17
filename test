@@ -1,0 +1,39 @@
+Script started on So 17 Jun 2018 18:13:09 CEST
+Connection closed by foreign host.
+Trying 2a02:898:17:8000::42...Connected to towel.blinkenlights.nl.Escape character is '^]'.[H[J[HYour packets were eaten by the terminator
+
+
+[1;31mSystem:   [1;37m [1;31mHost:[1;37m LENOV-LAPTP-IP500-00001 [1;31mKernel:[1;37m 4.13.0-45-generic x86_64 (64 bit) [1;31mDesktop:[1;37m MATE 1.12.1[0;37m
+[1;31m          [1;37m [1;31mDistro:[1;37m Ubuntu 16.04 xenial[0;37m
+[1;31mMachine:  [1;37m [1;31mSystem:[1;37m LENOVO (portable) [1;31mproduct:[1;37m 80Q3 [1;31mv:[1;37m Lenovo ideapad 500S-14ISK[0;37m
+[1;31m          [1;37m [1;31mMobo:[1;37m LENOVO [1;31mmodel:[1;37m Lenovo ideapad 500S-14ISK [1;31mv:[1;37m SDK0J40709 WIN[0;37m
+[1;31m          [1;37m [1;31mBios:[1;37m LENOVO [1;31mv:[1;37m D3CN27WW [1;31mdate:[1;37m 10/28/2015[0;37m
+[1;31mCPU:      [1;37m [1;31mDual core[1;37m Intel Core i7-6500U (-HT-MCP-)[1;37m [1;31mcache:[1;37m 4096 KB[0;37m 
+[1;31m          [1;37m [1;31mclock speeds:[1;37m [1;31mmax:[1;37m 3100 MHz [1;31m1:[1;37m 500 MHz [1;31m2:[1;37m 500 MHz [1;31m3:[1;37m 500 MHz [1;31m4:[1;37m 500 MHz[0;37m
+[1;31mGraphics: [1;37m [1;31mCard-1:[1;37m Intel Sky Lake Integrated Graphics[0;37m
+[1;31m          [1;37m [1;31mCard-2:[1;37m NVIDIA GM108M [GeForce 940M][0;37m
+[1;31m          [1;37m [1;31mDisplay Server:[1;37m X.Org 1.19.5 [1;31mdriver:[1;37m nvidia [1;31mResolution:[1;37m 1920x1080@60.00hz[0;37m
+[1;31m          [1;37m [1;31mGLX Renderer:[1;37m GeForce 940M/PCIe/SSE2 [1;31mGLX Version:[1;37m 4.5.0 NVIDIA 384.130[0;37m
+[1;31mAudio:    [1;37m [1;31mCard[1;37m Intel Sunrise Point-LP HD Audio [1;31mdriver:[1;37m snd_hda_intel [1;31mSound:[1;37m ALSA [1;31mv:[1;37m k4.13.0-45-generic[0;37m
+[1;31mNetwork:  [1;37m [1;31mCard-1:[1;37m Intel Intel Dual Band Wireless-AC 3165 Plus Bluetooth [1;31mdriver:[1;37m iwlwifi[0;37m
+[1;31m          [1;37m [1;31mIF:[1;37m wlp2s0 [1;31mstate:[1;37m up [1;31mmac:[1;37m e0:94:67:c4:8d:df[0;37m
+[1;31m          [1;37m [1;31mCard-2:[1;37m Realtek RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [1;31mdriver:[1;37m r8169[0;37m
+[1;31m          [1;37m [1;31mIF:[1;37m enp3s0 [1;31mstate:[1;37m down [1;31mmac:[1;37m 54:ee:75:83:24:12[0;37m
+[1;31mDrives:   [1;37m [1;31mHDD Total Size:[1;37m 256.1GB (57.2% used) [1;31mID-1:[1;37m /dev/sda [1;31mmodel:[1;37m RTNMB256VBM8EWXL [1;31msize:[1;37m 256.1GB[0;37m
+[1;31mPartition:[1;37m [1;31mID-1:[1;37m / [1;31msize:[1;37m 226G [1;31mused:[1;37m 129G (60%) [1;31mfs:[1;37m ext4 [1;31mdev:[1;37m /dev/dm-1[0;37m
+[1;31m          [1;37m [1;31mID-2:[1;37m /boot [1;31msize:[1;37m 473M [1;31mused:[1;37m 346M (77%) [1;31mfs:[1;37m ext2 [1;31mdev:[1;37m /dev/sda2[0;37m
+[1;31m          [1;37m [1;31mID-3:[1;37m swap-1 [1;31msize:[1;37m 8.37GB [1;31mused:[1;37m 0.00GB (0%) [1;31mfs:[1;37m swap [1;31mdev:[1;37m /dev/dm-2[0;37m
+[1;31mRAID:     [1;37m No RAID devices: /proc/mdstat, md_mod kernel module present[0;37m
+[1;31mSensors:  [1;37m [1;31mSystem Temperatures: cpu:[1;37m 44.0C [1;31mmobo:[1;37m 42.0C [1;31mgpu:[1;37m 44C[0;37m
+[1;31m          [1;37m [1;31mFan Speeds (in rpm): cpu:[1;37m 0[0;37m
+[1;31mInfo:     [1;37m [1;31mProcesses:[1;37m 233 [1;31mUptime:[1;37m 8:00 [1;31mMemory:[1;37m 2031.3/7771.3MB [1;31mClient:[1;37m Shell (bash) [1;31minxi:[1;37m 2.2.35[0;37m [0;37m
+[0m
+
+[0;32m✔[0m (B[m[38;5;5m18:13:11(B[m[38;5;15m (B[m[38;5;46mrichter@LENOV-LAPTP-IP500-00001(B[m[38;5;15m:(B[m[38;5;87m~/Develop/Rikta/bash(B[m[38;5;15m$(B[mecho e[Ktest
+test
+[0;32m✔[0m (B[m[38;5;5m18:13:18(B[m[38;5;15m (B[m[38;5;46mrichter@LENOV-LAPTP-IP500-00001(B[m[38;5;15m:(B[m[38;5;87m~/Develop/Rikta/bash(B[m[38;5;15m$(B[mecho blabliblub
+blabliblub
+[0;32m✔[0m (B[m[38;5;5m18:13:22(B[m[38;5;15m (B[m[38;5;46mrichter@LENOV-LAPTP-IP500-00001(B[m[38;5;15m:(B[m[38;5;87m~/Develop/Rikta/bash(B[m[38;5;15m$(B[mexit
+exit
+
+Script done on So 17 Jun 2018 18:13:24 CEST

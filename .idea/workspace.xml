@@ -4,7 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/functions_and_aliases.sh" line="14" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="541d7562-1aa9-45c6-9c2f-1e35d8c5d500" name="Default" comment="" />
+    <list default="true" id="541d7562-1aa9-45c6-9c2f-1e35d8c5d500" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions_and_aliases.sh" beforeDir="false" afterPath="$PROJECT_DIR$/functions_and_aliases.sh" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,6 +103,9 @@
       <replace>#</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -129,6 +135,7 @@
     <option name="width" value="960" />
     <option name="height" value="1021" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -176,21 +183,20 @@
       <option name="presentableId" value="Default" />
       <updated>1529142939928</updated>
       <workItem from="1529142942645" duration="4949000" />
-      <workItem from="1529150506080" duration="23873000" />
+      <workItem from="1529150506080" duration="25527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28822000" />
+    <option name="totallyTimeSpent" value="30476000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1049" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />

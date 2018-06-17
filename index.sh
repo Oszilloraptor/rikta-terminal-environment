@@ -9,3 +9,7 @@ export RTE_PATH=$( cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 . ${RTE_PATH}/prompt.sh
 . ${RTE_PATH}/shopt.sh
 . ${RTE_PATH}/startup_screen.sh
+
+function rte_load_installations() {
+    . ${RTE_PATH}/installation.sh
+}

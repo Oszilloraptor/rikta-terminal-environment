@@ -1,1 +1,0 @@
-# rikta-terminal-environmental

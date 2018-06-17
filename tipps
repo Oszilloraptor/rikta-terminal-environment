@@ -1,0 +1,64 @@
+# Shell Tricks
+
+There are many tricks for the shell, but many are unknown by some poeple, so here are my favorites I use almost  every time.
+
+I assume that the fundamental basics, like piping and redirecting of the stdin and stdout are already present ;)
+
+All these commands will work in a plain bash, without any additional software
+
+## history-replacements
+
+The following operators will be replaced on executing the command
+
+### `!!`
+
+will be replaced by the last command, especially usefull if you forget sudo: `sudo !!`.
+
+*or you use the "please"-alias of this repo*
+
+### `!*`
+
+will be replaced by all commands all arguments of the last command, especially 
+
+### `!<n>`
+
+will be replaced by command <n> of the history.
+Most usefull after a call to `history`
+
+*especially usefull if you combine it with an `history | grep <term>`, or the alias `hg <term>` of this repo*
+
+### `^<old>^<new>`
+
+Executes the last command, but replaces the first occurence of `<old>` with `<new>`
+
+## other stuff
+
+### escaping aliases
+
+If you want to use the original command instead of an alias that overrides it, you can just prepend a slash
+
+### expand command
+
+ever wanted to know what you will actually execute if you use `*` in your commands? Just press `STRG`+`X`+`*` and you command will expand to the actually executed version
+
+## keyboard-shortcuts
+
+### Enter multiline commands in the CLI
+
+Press `STRG`+`X`, followed by `STRG`+`E`, and you will open an editor for your command.
+
+*If you use the `ENV.sh` of this repo, this will be `nano` by default*
+
+### Go to the beginning/end of the line
+
+Press `STRG`+`A` to set you cursor to the beginning of the command,
+use `STRG`+`E` to go to the end.
+Use `STRG`+`X`+`X` to go to the other end.
+
+## funny stuff
+
+### insults on sudo
+
+If you are tired by the default "Permission denied" when you enter a wrong password on sudo, you can enable the "insult"-mode, where the cli will instead make fun of you.
+
+Just enter `sudo visudo` to open the sudo-settings and add the line `Defaults insults`

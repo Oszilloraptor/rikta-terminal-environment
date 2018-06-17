@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-clear
-echo "You can interrupt the start-screen with ^C"
+bofh
 echo
 echo
 inxi -Fc 31

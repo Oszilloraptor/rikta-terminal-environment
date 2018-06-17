@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env bash 
 
 
 ##############
@@ -51,6 +51,9 @@ alias hg="history | grep" #<search term>
 # --mouse         = enable mouse-support
 alias nano="nano --backup --tabstospaces --smooth --tabsize=4 --constantshow --autoindent --mouse"
 
+# google stuff
+alias google="googler"
+
 # executes the last command as sudo
 alias please='sudo $(fc -ln -1)'
 
@@ -68,6 +71,9 @@ alias contributors="git log --format='%aN' | uniq -u"
 
 # performs a softreboot with skipping hardwarechecks
 alias softreboot="sudo /sbin/kexec -l /boot/$KERNEL --append=\"$KERNELPARAMTERS\" --initrd=/boot/$INITRD; sync; sudo /sbin/kexec -e"
+
+# show whole post in howdoi
+alias howdoi="howdoi -a"
 
 
 
@@ -104,7 +110,7 @@ alias mkdir="mkdir --parents --verbose"
 # [OVERRIDE]
 # overrides the behavior of rm
 # it now works recursive and removes empty dirs
-alias rm="rm --dir --recursive --verbose"
+alias rm="rm --dir --recursive --verbose" #(<- use this if you don't want to use the trash)
 
 # makes a file immutable, even root can't mutate it (without executing the mutable-command beforehand)
 alias immutable="sudo chattr +i" #<filename>
@@ -124,7 +130,12 @@ alias rme="find . -type d -empty -delete"
 # show public ssh-key
 alias pubkey="cat ~/.ssh/id_rsa.pub"
 
+# [OVERRIDE]
+# replaces tree with alder
+alias tree="alder"
 
+# removes backups in current file
+alias rmbu="rm -iv ./*{~,.save}"
 
 ###########
 # network #
@@ -175,6 +186,14 @@ function mostUsedCommands() {
     | head -n30
 }
 
+# get "bofh-excuses"
+function bofh() {
+    telnet towel.blinkenlights.nl 666 \
+    | sed "s/=== The BOFH Excuse Server ===//" \
+    | tr -d '\n' \
+    && echo
+}
+
 # commit with a random message
 # don't use this at work ;)
 alias rancommit="git commit -m \"\$(curl -s http://whatthecommit.com/index.txt)\"" # commits with a random commit message
@@ -187,3 +206,23 @@ alias ram="sudo cat /dev/mem | hexdump -C | less"
 
 # reloads bashrc
 alias reload=". ~/.bashrc"
+
+# clocks into moro (npm tool for timetracking)
+alias hi="moro hi"
+
+# clocks out of moro and shutdown
+alias bye="moro bye"
+
+# prints the state of the last command with a stegosaurus or a daemon, depending
+# on exit code
+#
+# usefull to end a long-running command where you may leave your pc and look
+# to the screen from the other side of the room for a while
+function report() {
+    if [ $? -eq 0 ]; then # last command returned 0
+		clear
+       	cowsay -f stegosaurus "run successfully :)"
+    else
+       	cowsay -f daemon "command failed o:"
+    fi
+}
