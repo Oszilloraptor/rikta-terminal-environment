@@ -8,7 +8,9 @@ export RTE_PATH=$( cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 . ${RTE_PATH}/functions_and_aliases.sh
 . ${RTE_PATH}/prompt.sh
 . ${RTE_PATH}/shopt.sh
-. ${RTE_PATH}/startup_screen.sh
+
+# inxi & telnet aren't availaible on Uberspace 7
+# . ${RTE_PATH}/startup_screen.sh
 
 function rte_load_installations() {
     . ${RTE_PATH}/installation.sh
