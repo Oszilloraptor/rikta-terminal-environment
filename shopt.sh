@@ -54,7 +54,8 @@ shopt -u compat40
 shopt -u compat41
 
 # If set, Bash does not process the replacement string in the pattern substitution word expansion using quote removal.
-shopt -u compat42
+# [Unavailaible on Uberspace]
+# shopt -u compat42
 
 # If set, Bash quotes all shell metacharacters in filenames and directory names when performing completion.
 # If not set, Bash removes metacharacters such as the dollar sign from the set of characters
@@ -63,7 +64,8 @@ shopt -u compat42
 # however, any dollar signs appearing in filenames will not be quoted, either.
 # This is active only when bash is using backslashes to quote completed filenames.
 # This variable is set by default, which is the default Bash behavior in versions through 4.2.
-shopt -s complete_fullquote
+# [Unavailaible on Uberspace]
+# shopt -s complete_fullquote
 
 # If set, Bash replaces directory names with the results of word expansion when performing filename completion.
 # This changes the contents of the readline editing buffer. If not set, Bash attempts to preserve what the user typed.
@@ -115,7 +117,8 @@ shopt -s globstar
 # If set, range expressions used in pattern matching bracket expressions behave as if in the traditional C locale when performing comparisons.
 # That is, the current locale’s collating sequence is not taken into account, so ‘b’ will not collate between ‘A’ and ‘B’,
 # and upper-case and lower-case ASCII characters will collate together.
-shopt -u globasciiranges
+# [Unavailaible on Uberspace]
+# shopt -u globasciiranges
 
 # If set, shell error messages are written in the standard GNU error message format.
 shopt -u gnu_errfmt
