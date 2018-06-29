@@ -46,10 +46,10 @@ alias hg="history | grep" #<search term>
 # --tabstospaces  = use spaces instead of tabs
 # --smooth        = scroll line-wise instead of half-pages
 # --tabsize=4     = set the size of a tab to 4 spaces
-# --constatshow   = always show the cursos position
+# --constatshow   = always show the cursos position (not availaible on uberspace 7)
 # --autoindent    = enable automatic indentation
 # --mouse         = enable mouse-support
-alias nano="nano --backup --tabstospaces --smooth --tabsize=4 --constantshow --autoindent --mouse"
+alias nano="nano --backup --tabstospaces --smooth --tabsize=4 --autoindent --mouse"
 
 # google stuff
 alias google="googler"
